@@ -8,10 +8,23 @@ public static void main(String[] args) {
 
 String number = JOptionPane.showInputDialog("Type a number!");
 
-for(int i = 0; i < ; i++ ) {
-	
-	
-	
+int prime= Integer.parseInt(number);
+
+for( int i = 2; i < prime; i++ ) {
+	   if(prime%i==0) {
+
+		 JOptionPane.showMessageDialog(null, "number is not prime");
+	   System.exit(0);
+	   }
+	  
+	   
+	  
+
+		   
+	  
+}
+JOptionPane.showMessageDialog(null, "number is prime");
+}
 }
 
 	
@@ -21,6 +34,6 @@ for(int i = 0; i < ; i++ ) {
 	
 	
 	
-}
+
 	
-}
+
