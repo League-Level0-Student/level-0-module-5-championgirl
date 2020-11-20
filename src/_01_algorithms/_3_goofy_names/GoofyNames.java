@@ -14,23 +14,50 @@ public class GoofyNames {
 String name = JOptionPane.showInputDialog("Enter your name");
 		// 2. Print upper case name to the console using .toUpperCase()
          System.out.println(name.toUpperCase());  
-		//    Run your program to see that this works.
+	     //Run your program to see that this work
 
 		// 3. Loop through each character of the name (steps 4 - 6).
 		//    HINT: Use .length() to determine the number of characters in the String.
+for(int i=0; i< name.length(); i++) {
+	
+	// 4. Create a char variable to store the next character of the name
+	//    use .charAt()
+	char letter = name.charAt(i);
+	
+	// 5. Use MODULO operator (%) to identify if it is an EVEN or ODD character.
+	
+	    if (i % 2 == 0) {
+	    	
+	  
+	    	letter=Character.toUpperCase(letter); 
+	    	
+	    	
+	    	System.out.println("number is even");
+	    }
+	    
+	  
+			  
+	    else {
+	       
+	    	letter=Character.toLowerCase(letter); 
+	    	
+	    	System.out.println("number is odd");
+	    }
 
-			// 4. Create a String variable to store the next character of the name
-			//    using .substring(start, end)
-			//    HINT: replace 'start' and 'end' to get String with character at i 
-			
-			// 5. Use MODULO to set this variable to upper case for EVEN characters
-			//    and lower case for ODD characters.
+	// 6. Even characters should be made uppercase and odd characters made lowercase
+	//    HINT: use Character.toUpperCase() or Character.toLowerCase()
 
-			
-			// 6. ADD this String  (containing 1 char) to the goofyName String
 
-		
-		// 7. Use pop-up to show user their Goofy name
+	// 7. ADD the char to the end of the goofyName String
+
+	    goofyName+=letter;
+
+}
+// 8. Use pop-up to show user their Goofy name
+	    JOptionPane.showMessageDialog(null, goofyName);
+
+
+
 
 	}
 }
