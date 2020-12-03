@@ -11,8 +11,9 @@ public class Snowflake {
 
 		// #1. Make a new Robot
 	
+		
 		Robot coder = new Robot();
-
+coder.hide();
 		// #2. Set your robot’s position to x=300 and y=300
 
 	          coder.setX(300);
@@ -38,7 +39,7 @@ coder.setPenColor(Color.black);
 			
 			// #8. turn the robot to the right by 60
 			
-			coder.turn(-60);
+			coder.turn(60);
 			// #12. set the pen color to blue for even numbers of i
 
 		    if (i % 2 == 0) {
@@ -52,10 +53,10 @@ coder.setPenColor(Color.black);
 		    }
 			
 			// #9. Use a for loop to do everything (#10, #11) 6 times ( use j as a counter )
-			   for( int j = 0; j < 6; i++ ) {
+			   for( int j = 0; j < 6; j++ ) {
 			
 					// #10. turn the robot to the left by 60
-		coder.turn(60);
+		coder.turn(-60);
 					
 					// #11. move the robot by 50 (play the start button)
 					coder.move(50);
@@ -64,8 +65,10 @@ coder.setPenColor(Color.black);
 			// #14. set the pen color to black
 			   coder.setPenColor(Color.black); 
 		
-	
+
 
 }
+   coder.show();
+	coder.sparkle();
 	}
 }
