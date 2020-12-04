@@ -1,6 +1,10 @@
-
+int x= 250;
+int speed=1;
+int x2= 750;
 void setup() {
-  
+    size(1000,1000);
+noFill();
+
 }
 
 void draw() {
@@ -15,19 +19,34 @@ void draw() {
   Make the rings move past each other.
   When the rings hit the side of the sketch, make them reverse their direction.
   */
-  
-  size(1000,1000);
-for(int i=10; i>0; i--){
 
-fill(#000000);
+  background(#FFFFFF);
+for(int i=25; i>0; i--){
+
+ 
+ellipse(x,500,i*10,i*10); 
 }
 
-else{
-fill(#FFFFFF);
-  }
 
+x+=speed;
 
-ellipse(500,500,i*50,i*50);
+if(x>=width){
+
+  speed=-speed;
 
 }
+
+if(x<=0){
+
+  speed=-speed;
+
+}
+for(int i=25; i>0; i--){
+
+
+
+ellipse(x2,500,i*10,i*10); 
+}
+x2-=speed;
+
 }
