@@ -116,19 +116,36 @@ public class NestedLoops {
 		//	
 			
 			//}
-				
+			
+//7. Print all the years you were alive and how old you were in each. e.g. “In 1979, i was 2 years old.” (for a really old person)
 
-		
-		
-		
 		
 	
-
-
-}
+	//	for(int year = 2009; year<=2020; year++) {
+	
+			
+			//int age= year-2009;
+	//		
+	//	System.out.println("In " + year +", I was " + (year-2009)+" years old.");
+			
+			
+		
+	//	}
+		
+		
+		for(int j = 0; j<3; j++) {
+		
+		for(int i = 0; i<=2; i++) {
+			
+			
+			System.out.println(j+" "+i );
+			
+		}
+		
+	}
 		
 	
-		
+	}	
 	}
 	
 	
