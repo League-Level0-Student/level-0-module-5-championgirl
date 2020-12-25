@@ -133,21 +133,61 @@ public class NestedLoops {
 	//	}
 		
 		
-		for(int j = 0; j<3; j++) {
 		
-		for(int i = 0; i<=2; i++) {
+		//for(int j = 0; j<3; j++) {
+		
+		//for(int i = 0; i<3; i++) {
 			
 			
-			System.out.println(j+" "+i );
+			//System.out.println(i+" "+j);
 			
-		}
+		//}
 		
-	}
+	//}
 		
+	
+	
+	
+ //   for(int i = 1; i<=7; i+=3) {		               
+	//	 System.out.println();
+		//	for(int j = i; j<i+3; j++) {
+		//		
+				System.out.print(j+"");
+		//		
+		//	}
+    	
+    	
+    	
+   // }
+
+	
+
+	
+    for(int i = 1; i<=7; i+=3) {		               
+		 System.out.println();
+			for(int j = i; j<i+3; j++) {
+				
+				System.out.print(j+"");
+				
+			}
+    	
+    	
+    	
+    }
+
+	
+	
+	
+	
+	
+
+	
+	
+	
 	
 	}	
-	}
+
 	
-	
+}
 	
 
