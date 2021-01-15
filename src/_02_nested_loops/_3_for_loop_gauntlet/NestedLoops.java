@@ -117,7 +117,7 @@ public class NestedLoops {
 			
 			//}
 			
-//7. Print all the years you were alive and how old you were in each. e.g. “In 1979, i was 2 years old.” (for a really old person)
+//7. Print all the years you were alive and how old you were in each. e.g. â€œIn 1979, i was 2 years old.â€� (for a really old person)
 
 		
 	
@@ -219,33 +219,38 @@ public class NestedLoops {
 	//	for(int j = 1; j<=i;j++) {
 			
 		//	System.out.print("* ");
-		//
+	
 		
 	//}
-		//System.out.println();
+	//	System.out.println();
+	//		
+	//}
+	
 			
-		//}
-			
-			
-			
-			
-			
-			
-		for(int i = 0; i<=0;i+=0) {
-
-		}
-			
-		for(int j = 100; j>=1; j--) {
 		
-			System.out.println(j);
-	
-	
 			
+		for(int i = 0; i<100; i--) {
+			System.out.println(i%100);
+			
+		
 		}
 			
-			
+		//Write a for loop that counts down from 100 to 0. However, the for loop must start with for
+	//(int i = 0; and you may NOT have any code ABOVE your for loop. 
 	
 	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}	
 	
 }
