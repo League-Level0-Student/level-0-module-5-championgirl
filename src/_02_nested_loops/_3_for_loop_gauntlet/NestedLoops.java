@@ -227,15 +227,19 @@ public class NestedLoops {
 	//}
 	
 			
+
+			
+		for(int i = 0; i<=100; i++) {
+			
+			
+				System.out.println(100-i);
 		
-			
-		for(int i = 0; i<100; i--) {
-			System.out.println(i%100);
-			
 		
 		}
-			
-		//Write a for loop that counts down from 100 to 0. However, the for loop must start with for
+				
+	
+
+			//Write a for loop that counts down from 100 to 0. However, the for loop must start with for
 	//(int i = 0; and you may NOT have any code ABOVE your for loop. 
 	
 	
@@ -254,5 +258,6 @@ public class NestedLoops {
 	}	
 	
 }
+
 	
 
