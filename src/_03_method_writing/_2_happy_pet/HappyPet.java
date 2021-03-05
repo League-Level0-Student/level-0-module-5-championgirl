@@ -103,7 +103,7 @@ while (happinessLevel < 20) {
 
 		if (pet.contentEquals("snake")) {
 
-			JOptionPane.showMessageDialog(null, " I feel Ssssimply the bestssssssssssssss");
+			JOptionPane.showMessageDialog(null, " I feel Ssssimply the best");
 
 		}
 
