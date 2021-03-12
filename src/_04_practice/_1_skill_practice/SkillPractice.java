@@ -13,8 +13,8 @@ public class SkillPractice {
 SkillPractice skills = new SkillPractice();
          //  skills.skill1();
           //skills.skill2();
-       skills.skill3();
-          //skills.skill4();
+       //skills.skill3();
+          skills.skill4();
           // skills.skill5();
  }
 
@@ -70,20 +70,43 @@ SkillPractice skills = new SkillPractice();
 //}
 
 
-void skill3() {// Get a random number that is less than 20 and print it to the console 
+//void skill3() {// Get a random number that is less than 20 and print it to the console 
 
 
-	//Random poppy = new Random();
-	//int number = poppy.nextInt(20);
+//Random poppy = new Random();
+//int number = poppy.nextInt(20);
 //System.out.println(number);
-	//}
+
 	
+//Random pop = new Random();
+//int ran = pop.nextInt(10);
+//System.out.println(ran);
+//System.out.println( number-ran);
+//}
+ 
+// void skill4() {// In a pop-up, ask the user for the city they live in 
+ 
+// String City = JOptionPane.showInputDialog("What city do you live in?");
+//if(City.equalsIgnoreCase("san diego")) {
+
+//JOptionPane.showMessageDialog(null,"You live in America's Finest City");
+
+		//}
+//else {
 	
+//JOptionPane.showMessageDialog(null,"Move to San Diego!");
+
+//}
+ //}
 	
-	
-	
-	
-	
+int car = 2;
+
+if(car == 2) {
+
+	JOptionPane.showMessageDialog(null, car*2);
+
+			}
+ 
 	
 	
 	
@@ -127,7 +150,7 @@ void skill3() {// Get a random number that is less than 20 and print it to the c
       
 
 		//String School = JOptionPane.showInputDialog("Whats the name of yourschool?");
-     	//JOptionPane.showMessageDialog(null, School +" is a wonderful school and youare too!");
+     	//JOptionPane.showMessageDialog(null, School +" is a wonderful school and you're too!");
 //}
 
 
