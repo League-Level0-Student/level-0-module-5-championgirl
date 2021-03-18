@@ -11,156 +11,134 @@ public class SkillPractice {
  public static void main(String[] args) {
 
 SkillPractice skills = new SkillPractice();
-         //  skills.skill1();
-          //skills.skill2();
-       //skills.skill3();
+         skills.skill1();
+          skills.skill2();
+       skills.skill3();
           skills.skill4();
-          // skills.skill5();
+          skills.skill5();
  }
+
 
 
  // CONVERT DIMES INTO CENTS//
 
 
-//void skill1() {
+void skill1() {
  
-//String dimes = JOptionPane.showInputDialog("How many dimes do you have?");
+String dimes = JOptionPane.showInputDialog("How many dimes do you have?");
 
-//int numberdimes = Integer.parseInt(dimes);
+int numberdimes = Integer.parseInt(dimes);
 
-//int cents = numberdimes * 10;
-//}
+int cents = numberdimes * 10;
 
-//JOptionPane.showMessageDialog(null, cents+" cents");
+
+JOptionPane.showMessageDialog(null, cents+" cents");
 
 		
-		
 
+ String height = JOptionPane.showInputDialog("How tall are you (in inches)");
 
- //String height = JOptionPane.showInputDialog("How tall are you (in inches)");
+int inches = Integer.parseInt(height);
 
-//int inches = Integer.parseInt(height);
+ if (inches<36) {
 
- //if (inches<36) {
+ JOptionPane.showMessageDialog(null,"Eat your Wheaties.");
 
- //JOptionPane.showMessageDialog(null,"Eat your Wheaties.");
+ }
 
- //}
+ else{
+JOptionPane.showMessageDialog(null, "Good job eating your Wheaties!");
+ }
 
-// else{
-//JOptionPane.showMessageDialog(null, "Good job eating your Wheaties!");
- //}
-
-//}
+}
  
 
 
-//void skill2() {
+void skill2() {
 	
 
 	
-//	for(int j = 1; j<=30; j++) {
-		//if(j % 3 == 0) {
-		//	System.out.println(j);
-		//}
+for(int j = 1; j<=30; j++) {
+		if(j % 3 == 0) {
+			System.out.println(j);
+		}
 		
 		
 				
-//}
-//}
+}
+}
 
 
-//void skill3() {// Get a random number that is less than 20 and print it to the console 
+void skill3() {
 
 
-//Random poppy = new Random();
-//int number = poppy.nextInt(20);
-//System.out.println(number);
+Random poppy = new Random();
+int number = poppy.nextInt(20);
+System.out.println(number);
 
 	
-//Random pop = new Random();
-//int ran = pop.nextInt(10);
-//System.out.println(ran);
-//System.out.println( number-ran);
-//}
+Random pop = new Random();
+int ran = pop.nextInt(10);
+System.out.println(ran);
+System.out.println( number-ran);
+}
  
-// void skill4() {// In a pop-up, ask the user for the city they live in 
+void skill4() {// In a pop-up, ask the user for the city they live in 
  
-// String City = JOptionPane.showInputDialog("What city do you live in?");
-//if(City.equalsIgnoreCase("san diego")) {
+ String City = JOptionPane.showInputDialog("What city do you live in?");
+if(City.equalsIgnoreCase("san diego")) {
 
-//JOptionPane.showMessageDialog(null,"You live in America's Finest City");
+JOptionPane.showMessageDialog(null,"You live in America's Finest City");
 
-		//}
-//else {
+	}
+else {
 	
-//JOptionPane.showMessageDialog(null,"Move to San Diego!");
+JOptionPane.showMessageDialog(null,"Move to San Diego!");
 
-//}
- //}
-	
-int car = 2;
-
-if(car == 2) {
-
-	JOptionPane.showMessageDialog(null, car*2);
-
-			}
+}
  
+
+
+//Create a variable - cars - and initialize it to the number of cars your family has.
+ int cars=2;
+ // If there are 0 cars, use a pop-up to display, "I bet you use public transportation." 
+
+if(cars==0) {
 	
+	JOptionPane.showMessageDialog(null, "I bet you use public transportation.");
+}
+
+//If there is 1 car, use a pop-up to display the make/model of the car 
+
+if(cars==1) {
 	
+	JOptionPane.showMessageDialog(null, "You have one car!");
 	
+	}
+
+//If there is more than 1 car, use a pop-up to display how many wheels the// cars have between them. 
+
+
+if(cars==2) {
 	
+	JOptionPane.showMessageDialog(null,"You have "+ cars*4 + " car wheels");
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	}
+
+
+ }
+
 		
 		
 		//WONDERFULL SCHOOL//
 
 
-//void skill5() {
+void skill5() {
       
 
-		//String School = JOptionPane.showInputDialog("Whats the name of yourschool?");
-     	//JOptionPane.showMessageDialog(null, School +" is a wonderful school and you're too!");
-//}
-
-
-
-
-
-
-
-
-
+		String School = JOptionPane.showInputDialog("Whats the name of your school?");
+     	JOptionPane.showMessageDialog(null, School +" is a wonderful school and you're too!");
+}
 
 
 	}
